@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание</title>
+    <link rel="icon" href="ssau.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="schedule_container">
+        <div class="schedule_header">
+            <button id="previousWeek" class="week_button" onclick="previousWeek()">Предыдущая неделя</button>
+            <div class="select">
+                <input type="text" list="selectString" 
+                    placeholder=" Для поиска начните вводить номер группы или ФИО преподавателя"
+                    id="inputTextGroup" class="selectString" style="height: 35px; font-size: 20px; width: 50%; border-color: #001c3b">
+                <datalist id="selectString"></datalist>
+                <p id="currentWeek"></p>
+                <p id="currentGroup"></p>
+            </div>
+            <button id="nextWeek" class="week_button" onclick="nextWeek()">Следующая неделя</button>
+        </div>
+       
+        <table id="schedule"></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

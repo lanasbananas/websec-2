@@ -1,0 +1,107 @@
+body
+{
+    font-family: Roboto;
+    display: block;
+    text-align: center;
+    background-color: #f2f5fe;
+}
+
+#nextWeek
+{
+    position: absolute;
+    right: 10%;  
+    top: 50px;
+    width: 15%;
+}
+
+#previousWeek
+{
+    position: absolute;
+    left: 10%;
+    top: 50px;
+    width: 15%;
+}
+
+.week_button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    background: #f2f5fe;
+    border: 2px solid #001c3b;
+    outline: none;
+    font-size: 20px;
+    color: #001c3b;
+    right: 100px;
+  }
+
+.schedule_container
+{
+    margin: 0 auto;
+}
+
+.schedule_header
+{
+    margin: 0 auto;
+    height: 200px;
+    width: 1000px;
+}
+
+#currentGroup
+{
+    position: absolute;
+    top: 90px;
+    font-size: 35px;
+    color: #001c3b;
+    width: 1000px;
+    text-align: center
+}
+
+#currentWeek
+{
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    color: #001c3b;
+    width: 1000px;
+    text-align: center;
+}
+
+table
+{
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    table-layout: fixed;
+}
+
+table td, th
+{
+    border: 2px solid #001c3b;
+}
+
+#schedule
+{
+  margin: 0 auto;
+}
+
+select
+{
+    font-size: 15px;
+    font-family: Roboto;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #001c3b;
+}
+
+.selectString {
+    top: 50px;
+    transform: translateY(-50%);
+    height: 25px;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: #001c3b;
+}
+
